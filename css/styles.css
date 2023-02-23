@@ -3,8 +3,8 @@ html {
 }
 body {
   max-width: 320px;
-  border-left: 3px solid #476547;
-  border-right: 3px solid #476547;
+  border-left: 3px solid #2d2132;
+  border-right: 3px solid #2d2132;
   margin: auto;
   background: #2d2132;
 }
@@ -15,11 +15,16 @@ img {
 h1, h2, h3 {
   font-family: "Commune";
 }
+h3{
+  color:white;
+  padding: 0px 0px 0px 30px;
+}
 header {
   background: #c9552d;
   color: #2d2132;
 }
 div {
   background:#c9552d;
-  padding: 5px 30px;
+  padding: 5px 60px 60px 30px;
+  margin-top: -24px;
 }
