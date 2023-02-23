@@ -3,21 +3,25 @@ html {
 }
 body {
   max-width: 320px;
-  border-left: 3px solid #2d2132;
-  border-right: 3px solid #2d2132;
   margin: auto;
-  background: #2d2132;
+  padding: 0 15px;
 }
 img {
   display: block;
   max-width: 100%;
 }
-h1, h2, h3 {
+h1 {
   font-family: "Commune";
+  padding: 40px 0px 0px 40px;
+}
+h2{
+  font-family: "Commune";
+  padding: 0px 0px 0px 40px;
 }
 h3{
+  font-family: "Commune";
   color:white;
-  padding: 0px 0px 0px 40px;
+  padding: 40px 0px 0px 40px;
 }
 header {
   background: #c9552d;
@@ -27,4 +31,7 @@ div {
   background:#c9552d;
   padding: 5px 60px 40px 40px;
   margin-top: -24px;
+}
+main{
+  background: #2d2132;
 }
