@@ -3,13 +3,19 @@ html {
 }
 body {
   max-width: 320px;
+  border-left: 3px solid #476547;
+  border-right: 3px solid #476547;
   margin: auto;
-  background: #ddd;
-}
-h1, h2, h3 {
-  font-family: "Commune";
+  background: #2d2132;
 }
 img {
   display: block;
   max-width: 100%;
+}
+h1, h2, h3 {
+  font-family: "Commune";
+}
+header {
+  background: #c9552d;
+  color: #2d2132;
 }
