@@ -4,7 +4,6 @@ html {
 body {
   max-width: 320px;
   margin: auto;
-  padding: 0 15px;
 }
 img {
   display: block;
@@ -25,7 +24,7 @@ h3{
 }
 header {
   background: #c9552d;
-  color: #2d2132;
+  padding: 0px 0px 5px 0px;
 }
 div {
   background:#c9552d;
@@ -34,4 +33,12 @@ div {
 }
 main{
   background: #2d2132;
+  padding: 15px 0px 45px 0px;
+}
+footer{
+  background: #c9552d;
+  padding: 15px 0px 15px 0px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
 }
