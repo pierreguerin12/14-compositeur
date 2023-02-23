@@ -1,9 +1,14 @@
+html {
+  font-family: "Futura", Condensed, Medium;
+}
 body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
 }
-
+h1, h2, h3 {
+  font-family: "Commune";
+}
 img {
   display: block;
   max-width: 100%;
