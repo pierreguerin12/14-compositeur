@@ -27,7 +27,6 @@ h3{
 }
 header {
   background: #c9552d;
-  padding: 0px 0px 5px 0px;
 }
 div {
   background:#c9552d;
@@ -36,7 +35,7 @@ div {
 }
 main{
   background: #2d2132;
-  padding: 15px 0px 45px 0px;
+  padding: 5px 0px 60px 0px;
 }
 footer{
   background: #c9552d;
@@ -58,4 +57,5 @@ footer{
 }
 .legendes {
   color: white;
+  padding: 0px 0px 0px 10px;
 }
