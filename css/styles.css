@@ -4,6 +4,7 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background: black
 }
 img {
   display: block;
