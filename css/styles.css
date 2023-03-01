@@ -2,7 +2,7 @@ html {
   font-family: "Futura", Condensed, Medium;
 }
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
   background: black
 }
@@ -28,6 +28,8 @@ h3{
 }
 header {
   background: #c9552d;
+  display: flex;
+  flex-direction: row-reverse;
 }
 div {
   background:#c9552d;
@@ -45,11 +47,11 @@ footer{
   border-top-left-radius: 20px;
   text-align: center;
 }
-.container{
+header .container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   justify-content: flex-end;
-  align-items: flex-end;
+  flex-wrap:wrap;
 }
 .element{
   padding: 20px;
