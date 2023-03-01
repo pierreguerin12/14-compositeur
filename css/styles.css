@@ -49,9 +49,10 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 .element{
-  padding: 30px;
+  padding: 20px;
   background:#ddd4d3;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
